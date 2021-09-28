@@ -46,4 +46,4 @@ COPY ./django_app .
 
 # run entrypoint.sh
 RUN chmod +x /usr/src/app/entrypoint.sh
-ENTRYPOINT ["/usr/src/app/entrypoint.sh"]
+#ENTRYPOINT ["/usr/src/app/entrypoint.sh"]
