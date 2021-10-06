@@ -550,3 +550,9 @@ spec:
   ```
   kubectl get ingress
 ```
+You would see somthing similar;
+```
+NAME              CLASS    HOSTS   ADDRESS          PORTS   AGE
+ingress-service   <none>   *       192.168.99.105   80      12m
+```
+Now go to the IP address of ingress-service and **VOILA** You have your app.
