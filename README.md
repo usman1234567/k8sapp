@@ -485,7 +485,8 @@ Verify that each pod is running
 CONTROLLERS BUT MOST WIDELY USED IS "NGINX-INGRESS"**
 If you are using Minikube locally on your system you just need to enable addon for ingress controller:
 ```
-minikube addons enable ingress
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.1.0/deploy/static/provider/cloud/deploy.yaml
+
 ```
 Create a file called 'ingress_service.yaml' within the k8s folder. The file contents are shown below.
 ```
